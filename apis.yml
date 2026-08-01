@@ -1,8 +1,28 @@
 aid: sidekick-data
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sidekick-data.png
 name: Sidekick Data
-description: 'Sidekick Data is a company surfaced as a portfolio company of threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sidekick is a professional AI assistant for real estate agents and brokerages,
+  built on the same large language model technology that powers ChatGPT with custom
+  integrations into real estate-specific data sources. From a chat-style interface it
+  combines an agent''s inputs with MLS data feeds, local market insights, and a brokerage''s
+  brand preferences to produce detailed, on-voice outputs - covering client relationship
+  tracking, email and call interaction analysis, market trend monitoring, property
+  comparisons, transaction document management, and compliance risk detection. Sidekick
+  is directly integrated with MLS and association data feeds across the United States
+  and is backed by investors including Socium Ventures, Swift Ventures, and Garuda
+  Ventures. It is a consumer/professional SaaS product and publishes no public developer
+  API, SDKs, or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/sidekick-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Saas
+- Real Estate
+- Artificial Intelligence
+- AI Assistant
+- MLS
+- Real Estate Agents
+- SaaS
+- Brokerage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sidekick-data-domain-security.yml
 - type: Website
   url: https://sidekickdata.io/
+- type: Blog
+  url: https://www.sidekickdata.io/news/
+- type: Support
+  url: mailto:support@sidekickdata.io
+- type: TermsOfService
+  url: https://sidekickdata.io/legal-and-privacy
+- type: PrivacyPolicy
+  url: https://sidekickdata.io/legal-and-privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
