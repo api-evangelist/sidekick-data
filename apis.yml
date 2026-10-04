@@ -46,7 +46,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Artificial Intelligence
 - AI Assistant
 - MLS
@@ -62,6 +62,7 @@ tags_raw:
 - Real Estate Agents
 - SaaS
 - Brokerage
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
